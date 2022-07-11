@@ -13,6 +13,8 @@ class AssociationTestCase(TestCase):
 
     def test_01_roles_movie(self):
         """returns the role's movie"""
+        print(self.role.movie)
+        print(self.movie)
         self.assertEqual(self.role.movie, self.movie)
 
     def test_02_roles_actor(self):
